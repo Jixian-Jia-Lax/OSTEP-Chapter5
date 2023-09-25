@@ -8,4 +8,4 @@ Question 3: I let the child process to issue a file IO on purpose, so the schedu
 
 Question 4: I think there are so many variants of the same call becuase each variant correspnds to a different way to invoke the exec() system call(full path or relative path, input as a list or as a vector, etc).
 
-Question 5: 
+Question 5: The return value of wait() is the process id of the child process, i.e. the process we are waiting for to complete first. If we use wait() in the child, wait() will return -1, indicating wait() failed to execute.
