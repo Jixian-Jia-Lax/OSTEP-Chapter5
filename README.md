@@ -15,7 +15,27 @@ Question 6: waitpid() would be useful when the parent process has several child 
 Question 7: There is no output from printf().
 
 Chapter 6:
-
 For context switch measurement, the result is 4.045050ms for each swich (running on Amazon EC2 sercer, CPU affinity set to be a single CPU).
 For System call measurement, the reasut is 0.003956 ms for each getpid() (running on Macbook).
+
+
+Chapter 7:
+Question 1: For SJF,the average reponse time is 200 seconds and the average turnaround time is 400 seconds.
+For FIFO, the average reponse time is 200 seconds and the average turnaround time is 400 seconds.
+
+Question 2: For SJF,the average reponse time is 133.33 seconds and the average turnaround time is 333.33 seconds.
+For FIFO, the average reponse time is 133.33 seconds and the average turnaround time is 333.33 seconds.
+
+Question 3: For RR, the average reponse time is 1 seconds and average turnaround time is 456.67 seconds.
+
+Question 4: For such workloads that all jobs arrive at the same time and we also assume FIFO alwaysy starts from shorter jobs. Or for workloads that all jobs arrive at the same time and have the same size.
+
+Question 5: For workloads that all jobs arrive at the same time and have the same size, with the quantum length equals to the size of each job.
+
+Question 6: The response time with SJF increases almost linearly as job lengths increase.
+
+Question 6: The response time with RR increases almost linearly as quantum increases.
+
+
+
 
