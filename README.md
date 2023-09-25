@@ -16,3 +16,6 @@ Question 7: There is no output from printf().
 
 Chapter 6:
 
+For context switch measurement, the result is 4.045050ms for each swich (running on Amazon EC2 sercer, CPU affinity set to be a single CPU).
+For System call measurement, the reasut is 0.003956 ms for each getpid() (running on Macbook).
+
