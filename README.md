@@ -12,4 +12,4 @@ Question 5: The return value of wait() is the process id of the child process, i
 
 Question 6: waitpid() would be useful when the parent process has several child processes and we want to wait for a specific child. Or we can use waitpid() to check on the status of a child process.
 
-Question 7: 
+Question 7: There is no output from printf().
