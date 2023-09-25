@@ -6,4 +6,6 @@ Question 2: In my experiment, both the parent and child processes can access the
 
 Question 3: I let the child process to issue a file IO on purpose, so the scheduler will switch to the parent process and print the "Hello" first.
 
-Question 4:
+Question 4: I think there are so many variants of the same call becuase each variant correspnds to a different way to invoke the exec() system call(full path or relative path, input as a list or as a vector, etc).
+
+Question 5: 
